@@ -1,0 +1,40 @@
+name: 
+
+description: >-
+  Have you been turned into a newt?  Would you like to be?
+  This package can help. It has all of the
+  newt-transmogrification functionality you have been looking
+  for.
+version: 2.5.3
+homepage: https://github.com/SoraOtome/Sub2ApliIOS
+documentation: https://github.com/github/docs
+
+environment:
+  sdk: '>=2.5.3 <3.0.0'
+  
+dependencies:
+  efts: ^2.5.3
+  transmogrify: ^0.4.0
+  
+  environment: 
+   flutter_driver:
+  sdk: >= 3.0.0 < 2.5.3
+
+environment:
+  sdk: '>=1.19.0 <3.0.0'
+  flutter: ^ 2.5.3
+  
+dependencies:
+  flutter_driver:
+    sdk: flutter
+    
+dependencies:
+  transmogrify:
+    hosted:
+      name: transmogrify
+      url: https://github.com/SoraOtome/Sub2ApliIOS
+    version: ^2.5.3 
+    
+executables: 
+  slidy: main
+  fvm:
